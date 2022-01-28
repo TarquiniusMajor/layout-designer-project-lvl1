@@ -1,10 +1,10 @@
 {
-  "name": "html5-css-boilerplate",
+  "name": "Layout-designer-project-lvl1",
   "version": "0.1.0",
-  "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
+  "description": "first layout project",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
+    "url": "https://github.com/TarquiniusMajor/layout-designer-project-lvl1.git"
   },
   "main": "",
   "devDependencies": {
@@ -17,6 +17,6 @@
     "stylelint-scss": "^4.1.0",
     "surge": "^0.23.1"
   },
-  "author": "Nikita Mikhaylov",
+  "author": "Mike Novikov",
   "license": "ISC"
 }
