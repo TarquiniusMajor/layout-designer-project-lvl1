@@ -1,7 +1,56 @@
 /** CSS STYLE **/
+@import "main.css";
+:root {
+  --color-white: #fff;
+  --color-ht-white: #d7ccc0;
+  --color-light: #f5f4f0;
+  --color-main: #fe8a02;
+  --color-main-dark: #42413c;
+  --color-dark: #2a2626;
+  --color-ht-dark: #908d8b;
+  --color-brown: #b09a81;
+  --color-blue: #1085c5;
+}
 
-.hello {
-  display: block;
+@font-face {
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap") format("opentype");
+}
 
-  color: #fff;
+@font-face {
+  font-family: Neucha;
+  src: url("https://fonts.googleapis.com/css2?family=Neucha&display=swap") format("opentype");
+}
+
+html {
+  color: var(--color-dark);
+  font: 16px/1.6em "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+}
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+main,
+section,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
