@@ -37,6 +37,10 @@ main {
   position: relative;
 }
 
+li {
+  list-style: none;
+}
+
 h1,
 h2,
 h3 {
@@ -103,16 +107,14 @@ p {
 .btn {
   padding: 12px 24px;
   display: inline-block;
-  font-weight: 700;
-  text-decoration: none;
   margin: 0;
 }
 
 .btn-orange {
   color: var(--color-white);
-
+  font-weight: 700;
+  text-decoration: none;
   text-transform: uppercase;
-
   background: var(--color-primary);
 }
 
@@ -132,14 +134,72 @@ p {
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
+/* Navigation classes */
+.navigation-section {
+  padding-top: 100px;
+}
+
+.nav-element {
+  display: block;
+  width: 350px;
+  height: 323px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.nav-element:first-child {
+  padding: 0;
+}
+
+.nav-header {
+  font-size: 52px;
+  color: var(--color-white);
+}
+
+.nav-card {
+  background-color: var(--color-white);
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-card-number {
+  color: var(--color-dark);
+  margin-bottom: 40px;
+  font-family: Neucha, cursive;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.nav-card-header {
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+
+.nav-ul {
+  margin-bottom: -20px;
+}
+
 /* Atomic classes */
+
 .flex-container {
   display: flex;
   justify-content: space-between;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .color-primary {
   color: var(--color-primary);
+}
+
+.color-white {
+  color: var(--color-white);
 }
 
 .color-ht-white {
@@ -174,6 +234,10 @@ p {
   margin-right: 30px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
@@ -200,4 +264,8 @@ p {
 
 .bg-dark {
   background-color: var(--color-dark);
+}
+
+.height-348 {
+  height: 348px;
 }
