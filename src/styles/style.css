@@ -160,6 +160,10 @@ p {
   background-color: var(--color-white);
 }
 
+.nav-card:hover {
+  background-color: var(--color-primary);
+}
+
 .nav-link {
   display: block;
   text-decoration: none;
@@ -177,6 +181,10 @@ p {
 .nav-card-header {
   color: var(--color-primary);
   margin-bottom: 16px;
+}
+
+.nav-card:hover .nav-card-header {
+  color: var(--color-white);
 }
 
 .nav-ul {
