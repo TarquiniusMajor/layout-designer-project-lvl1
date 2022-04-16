@@ -311,6 +311,10 @@ h3 {
   background-color: var(--color-brown);
 }
 
+.bg-white {
+  background-color: var(--color-white);
+}
+
 .height-348 {
   height: 348px;
 }
